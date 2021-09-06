@@ -54,4 +54,11 @@ body{
     color: #31b5f7;
 }
 
+table th{
+    background-color: rgb(204, 204, 204);
+    text-transform: uppercase; 
+    font-style: bold;
+
+}
+
 
