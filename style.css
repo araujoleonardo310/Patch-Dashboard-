@@ -1,0 +1,35 @@
+/*============ Geral ==============*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 990px;
+    height: 740px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #edeff3;
+
+   
+}
+
+.container{
+    width: 920px;
+    height: 652px;
+    display: block;
+    margin: auto;
+    background: rgb(255 255 255);
+    border-radius: 20px;
+}
+
+.container .header{
+    display: flex;
+}
+
+.logo{
+    width: 60px;
+}
+
