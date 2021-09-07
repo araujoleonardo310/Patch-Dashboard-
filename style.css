@@ -107,4 +107,9 @@ table th{
     font-style: bold;
 }
 
+table{
+    width: 90%;
+    margin-left: 30px;
+}
+
 
