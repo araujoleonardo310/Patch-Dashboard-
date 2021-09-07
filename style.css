@@ -25,9 +25,7 @@ body{
     background: rgb(255 255 255);
     border-radius: 20px;
 }
-.profile {
-    width: 50px;
-}
+
 .logo{
     margin-left: 50px;
 }
@@ -38,6 +36,14 @@ body{
     margin-top: 17px;    
     border-bottom: 1px solid rgba(128, 128, 128, 0.274);
 }
+
+.menu {
+    width: 70%;
+    margin-top: 12px;
+}
+
+
+
 
 .header a{
     font-size: 16px;
@@ -54,11 +60,51 @@ body{
     color: #31b5f7;
 }
 
+.contact{
+    width: 20%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile{
+    width: 30px;
+}
+
+.fa-envelope {
+    font-size: 20px;
+}
+
+.fa-angle-right{
+ position: relative;
+ right: 40px;
+}
+
 table th{
     background-color: rgb(204, 204, 204);
     text-transform: uppercase; 
     font-style: bold;
+}
 
+.title {
+    display: flex;
+    margin: 20px 70px;
+    justify-content: space-between;
+}
+
+.title h2{
+    color: #586672;
+    font-size: 16px;
+    font-style: bold;
+}
+
+.button-right{
+    background-color: #2dcb73;
+    border: none;
+    padding: 2px;
+    color: #fff;
+    border-radius: 5px;
+    font-style: bold;
 }
 
 
