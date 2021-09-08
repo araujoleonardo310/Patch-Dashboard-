@@ -12,59 +12,71 @@
 
 <h2 id="sobre">Sobre</h2><br>
 
-<p>Desafio de desenvolvimento de uma calculadora web (Desktop)</p>
+<p>Desafio e recriação da dashboard do Filip Justić (Dibbble)</p>
+
+***Foco de desenvolvimento*** 
+ 
+- Cria menu de navegação;
+- Ícones de acesso rápido ao usuário;
+- Botão de compra ou venda ações;
+- Tabelas com informações sobre as transações ocorridas.
 
 <br>
 
-<img src="demost/calc-app.gif" align=center ><br><br>
+<img src="demost/demost.png" align=center ><br><br>
+
+
+### Efeitos especiais
+
+
 
 <h2 id="habilidades">Habilidades Desenvolvidas</h2><br>
 
-* Noção de seletores; 
-* Noção de posicionamento;
-* Noção de variáveis css e js;
-* Praticas de programação JavaScript;
-* Praticas de Estilização em CSS;
-* Noção de lógica de desenvolvimento;
+* Posicionamentos de elementos e imagens icons;
+* Mais habilidades com classes e seletores;
+* Maiores noções de recursos no Devtools;
+* Efeitos especiais para uma visualização sensacional
+
 
 <h2 id="status">Status</h2><br>
 
 ***Concluído*** 🚀💻
 <br>
 
-<h2 id="linguagens">Linguagens de Desenvolvimento & Programação</h2><br>
+<h2 id="linguagens">Linguagens & Softwares | Ferramentas</h2><br>
 
-* Html
+* HTML
 * CSS
-* JavaScript
-
-<br>
-
-<h2 id="softwares"> Softwares & Ferramentas</h2><br>
-
-* IDE (Visual Studio Code 
-* Git 
+* Git
 * GitHub
+* Devtools
+
 <br>
+
 
 <h2 id="referencias">Referências & Créditos</h2><br>
 
-FrontEnd Mentor - [Web Page](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29)
+Patch - Dashboard - Deposits Listing (Filip Justić)
+ - [Dibbble](https://dribbble.com/shots/5929162-Patch-Dashboard-Deposits-Listing)
 
-<img src="demost/mentor.png" title="Desafio calculadora App" href="">
+<img src="demost/creditos.png" title="Dashboard - Felip Justió" href="">
 <br><br>
 
-Calculator App Frontend Mentor Challenge | E-CODEC - [YouTube](https://www.youtube.com/watch?v=Oo0-aM1r_Hw&t=0s)
+Font Awesome - [site](https://fontawesome.com/v5.15/icons?d=gallery&p=2)
 
-<img src="demost/tutorial.png" title="Tutorial">
+<img src="demost/font-awesome.png" title="Tutorial">
+<br><br>
+
+Freepik - [site](https://br.freepik.com/)
+
+<img src="demost/freepik.png" title="Tutorial">
 <br><br>
 
 
 
 <h2 id="autor">Autor</h2><br>
 
-<p> Meu nome é Leonardo, mas gosto de ser o Leo. Estou me graduando em Sistemas de Informação. Sou Desenvolvedor Front-End (estagiário) na AjaxTI.</p><br>
-
+<p> Meu nome é Leonardo, mas gosto de ser o Leo. Estou me graduando em Sistemas de Informação. Sou estágiário de desenvolvimento Front-End na AjaxTI.</p><br>
 
 
 <h3 align=center><i>Gostos e Hobbies </i>📖🙋‍♂️</h3><br> 
