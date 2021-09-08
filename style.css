@@ -17,14 +17,17 @@ body{
    
 }
 
+/*============ Container =============*/
 .container{
     width: 920px;
-    height: 652px;
+    height: 100vh;
     display: block;
     margin: 0 auto;
     background: rgb(255 255 255);
     border-radius: 20px;
 }
+
+/* ============= Header ===================*/
 
 .logo{
     margin-left: 50px;
@@ -42,9 +45,6 @@ body{
     margin-top: 12px;
 }
 
-
-
-
 .header a{
     font-size: 16px;
     font-style: bold;
@@ -52,8 +52,6 @@ body{
     text-decoration: none;
     justify-content: space-between;
     margin-left: 10px;
-    
-
 }
 
 .header a:hover{
@@ -72,7 +70,9 @@ body{
 }
 
 .fa-envelope {
-    font-size: 20px;
+    font-size: 25px;
+    position: relative;
+    left: 30px;
 }
 
 .fa-angle-right{
@@ -81,16 +81,23 @@ body{
 }
 
 
+/*====================== Tabela =================*/
 .title {
     display: flex;
-    margin: 20px 70px;
+    margin: 35px 42px;
     justify-content: space-between;
 }
 
-.title h2{
+.title h2, .title2 h2{
     color: #586672;
     font-size: 16px;
     font-style: bold;
+}
+
+.title2 h2{
+    margin-left: 40px;
+    margin-top: 30px;
+    color: #a2a8b2;
 }
 
 button{
@@ -103,28 +110,78 @@ button{
 }
 
 table{
-    width: 90%;
+    font-size: 12px;
+    width: 92%;
     margin-top: 30px;
     margin-left: 30px;
+    border-collapse: collapse;
+    color: gray;
+    justify-items: center;
 }
 
 table img {
     width: 20px;
 }
 
-table th{
+table th {
     background-color: rgb(249 251 252);
-    text-transform: uppercase; 
+    text-transform: uppercase;
     font-size: small;
     font-style: bold;
-    padding: 15px;
+    padding: 12px;
+    width: 20%;
     text-align: left;
 }
 
-table td{
-    display: flex;
-    justify-content: left;
+tr td{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.226);
+    padding: 30px 8px;
+    width: 10%;
 }
+
+td {
+    width: 60%;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.bold, .name {
+    color: #000;
+    font-weight: 600;
+}
+
+.cotacao{
+    margin: 5px;
+    color: #74d1fd;
+}
+
+.subtitle{
+    display: block;
+    margin-top: 11px;
+}
+
+.avatar{
+    width: 50px;
+    margin-right: 20px;
+    position: absolute;
+}
+
+.status, .usuario{
+    margin-left: 80px;
+    
+}
+
+.seta-direita{
+    color: rgba(0, 0, 0, 0.623);
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
 
 
 
