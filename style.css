@@ -55,7 +55,7 @@ body{
 }
 
 .header a:hover{
-    color: #31b5f7;
+    color: #00aaff;
 }
 
 .contact{
@@ -69,10 +69,12 @@ body{
     width: 30px;
 }
 
-.fa-envelope {
-    font-size: 25px;
+.fa-chevron-down {
+    color: #a2a8b2;
+    font-size: 15px;
     position: relative;
-    left: 30px;
+    right: 60px;
+    top: 2px;
 }
 
 .fa-angle-right{
@@ -119,6 +121,11 @@ table{
     justify-items: center;
 }
 
+img{
+    border-radius: 50%;
+}
+
+
 table img {
     width: 20px;
 }
@@ -139,6 +146,7 @@ tr td{
     width: 10%;
 }
 
+
 td {
     width: 60%;
     text-align: left;
@@ -155,6 +163,7 @@ td {
     color: #74d1fd;
 }
 
+
 .subtitle{
     display: block;
     margin-top: 11px;
@@ -165,6 +174,7 @@ td {
     margin-right: 20px;
     position: absolute;
 }
+
 
 .status, .usuario{
     margin-left: 80px;
@@ -177,9 +187,22 @@ td {
 }
 
 
+/*============= Efeitos especiais ==============*/
+
+th:hover{
+    background-color: #555758;
+    color: rgb(59, 221, 9);
+}
 
 
+tr:hover{
+    background: #00000044;
+    color: #fff;
+}
 
+span:hover{
+    color: #d10ef8b6;
+}
 
 
 
