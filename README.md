@@ -3,16 +3,18 @@
 <div align=center>
     <a href="#sobre" align=center>Sobre</a>&nbsp;&nbsp;&nbsp;
     <a href="#status" align=center>Status</a>&nbsp;&nbsp;&nbsp;
-    <a href="#linguagens" align=center>Linguages</a>&nbsp;&nbsp;&nbsp;
     <a href="#habilidades" align=center>Habilidades</a>&nbsp;&nbsp;&nbsp;
-    <a href="#softwares" align=center>Softwares & Ferramentas</a>&nbsp;&nbsp;&nbsp;
+    <a href="#linguages" align=center>Linguagens</a>&nbsp;&nbsp;&nbsp;
     <a href="#referencias" align=center>Referências & Créditos</a>&nbsp;&nbsp;&nbsp; 
     <a href="#autor" align=center>Autor</a> 
 </div>
+<br>
 
 <h2 id="sobre">Sobre</h2><br>
 
 <p>Desafio e recriação da dashboard do Filip Justić (Dibbble)</p>
+
+<br>
 
 ***Foco de desenvolvimento*** 
  
@@ -43,7 +45,7 @@
 ***Concluído*** 🚀💻
 <br>
 
-<h2 id="linguagens">Linguagens & Softwares | Ferramentas</h2><br>
+<h2 id="linguages">Linguagens | Softwares | Ferramentas</h2><br>
 
 * HTML
 * CSS
@@ -56,18 +58,17 @@
 
 <h2 id="referencias">Referências & Créditos</h2><br>
 
-Patch - Dashboard - Deposits Listing (Filip Justić)
- - [Dibbble](https://dribbble.com/shots/5929162-Patch-Dashboard-Deposits-Listing)
+Patch - Dashboard - Deposits Listing (Filip Justić) - [Web Page](https://dribbble.com/shots/5929162-Patch-Dashboard-Deposits-Listing)
 
 <img src="demost/creditos.png" title="Dashboard - Felip Justió" href="">
 <br><br>
 
-Font Awesome - [site](https://fontawesome.com/v5.15/icons?d=gallery&p=2)
+Font Awesome - [Web Page](https://fontawesome.com/v5.15/icons?d=gallery&p=2)
 
 <img src="demost/font-awesome.png" title="Tutorial">
 <br><br>
 
-Freepik - [site](https://br.freepik.com/)
+Freepik - [Web Page](https://br.freepik.com/)
 
 <img src="demost/freepik.png" title="Tutorial">
 <br><br>
