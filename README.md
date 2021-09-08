@@ -1,4 +1,4 @@
-# Projeto: Calculadora - App 👨‍💻💻
+# Projeto: Patch - Dasboard 👨‍💻💻
 
 <div align=center>
     <a href="#sobre" align=center>Sobre</a>&nbsp;&nbsp;&nbsp;
