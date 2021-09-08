@@ -12,7 +12,7 @@
 
 <h2 id="sobre">Sobre</h2><br>
 
-<p>Desafio e recriação da dashboard do Filip Justić (Dibbble)</p>
+<p>Desafio e recriação da dashboard do Filip Justić (Dribbble)</p>
 
 <br>
 
