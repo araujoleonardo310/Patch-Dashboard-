@@ -91,6 +91,7 @@ body{
     color: #586672;
     font-size: 16px;
     font-style: bold;
+    margin-top: 15px;
 }
 
 button{
@@ -103,9 +104,15 @@ button{
 }
 
 table{
-    width: 90%;
+    width: 83%;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 90px;
+    border-collapse: collapse;
+    color: rgb(140 149 163);
+}
+
+.bold {
+    color: #000;
 }
 
 table img {
