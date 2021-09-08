@@ -80,11 +80,6 @@ body{
  right: 40px;
 }
 
-table th{
-    background-color: rgb(204, 204, 204);
-    text-transform: uppercase; 
-    font-style: bold;
-}
 
 .title {
     display: flex;
@@ -98,10 +93,10 @@ table th{
     font-style: bold;
 }
 
-.button-right{
+button{
     background-color: #2dcb73;
     border: none;
-    padding: 2px;
+    padding: 10px;
     color: #fff;
     border-radius: 5px;
     font-style: bold;
@@ -109,7 +104,27 @@ table th{
 
 table{
     width: 90%;
+    margin-top: 30px;
     margin-left: 30px;
 }
+
+table img {
+    width: 20px;
+}
+
+table th{
+    background-color: rgb(249 251 252);
+    text-transform: uppercase; 
+    font-size: small;
+    font-style: bold;
+    padding: 15px;
+    text-align: left;
+}
+
+table td{
+    display: flex;
+    justify-content: left;
+}
+
 
 
