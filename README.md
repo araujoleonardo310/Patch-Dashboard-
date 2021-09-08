@@ -35,15 +35,15 @@
 <h2 id="habilidades">Habilidades Desenvolvidas</h2><br>
 
 * Posicionamentos de elementos e imagens icons;
-* Mais habilidades com classes e seletores;
-* Maiores noções de recursos no Devtools;
-* Efeitos especiais para uma visualização sensacional
+* Noções e habilidades com classes e seletores;
+* Noções de recursos no Devtools;
+* Efeitos especiais com mouse sobre os elementos.
 
 
 <h2 id="status">Status</h2><br>
 
 ***Concluído*** 🚀💻
-<br>
+<br><br>
 
 <h2 id="linguages">Linguagens | Softwares | Ferramentas</h2><br>
 
