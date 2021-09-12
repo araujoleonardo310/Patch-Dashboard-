@@ -17,14 +17,18 @@ body{
    
 }
 
+/*============ Container =============*/
 .container{
     width: 920px;
-    height: 652px;
+    height: 100vh;
     display: block;
-    margin: 0 auto;
+    margin: 30px auto;
     background: rgb(255 255 255);
     border-radius: 20px;
+    overflow-y: scroll
 }
+
+/* ============= Header ===================*/
 
 .logo{
     margin-left: 50px;
@@ -42,9 +46,6 @@ body{
     margin-top: 12px;
 }
 
-
-
-
 .header a{
     font-size: 16px;
     font-style: bold;
@@ -52,12 +53,10 @@ body{
     text-decoration: none;
     justify-content: space-between;
     margin-left: 10px;
-    
-
 }
 
 .header a:hover{
-    color: #31b5f7;
+    color: #00aaff;
 }
 
 .contact{
@@ -71,8 +70,12 @@ body{
     width: 30px;
 }
 
-.fa-envelope {
-    font-size: 20px;
+.fa-chevron-down {
+    color: #a2a8b2;
+    font-size: 15px;
+    position: relative;
+    right: 60px;
+    top: 2px;
 }
 
 .fa-angle-right{
@@ -81,26 +84,39 @@ body{
 }
 
 
+/*====================== Tabela =================*/
 .title {
     display: flex;
-    margin: 20px 70px;
+    margin: 35px 42px;
     justify-content: space-between;
 }
 
-.title h2{
+.title h2, .title2 h2{
     color: #586672;
     font-size: 16px;
     font-style: bold;
     margin-top: 15px;
 }
 
+.title2 h2{
+    margin-left: 40px;
+    margin-top: 30px;
+    color: #a2a8b2;
+}
+
 button{
     background-color: #2dcb73;
-    border: none;
     padding: 10px;
     color: #fff;
-    border-radius: 5px;
-    font-style: bold;
+    font-weight: 800;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: #00aaff;  
 }
 
 table{
@@ -115,23 +131,86 @@ table{
     color: #000;
 }
 
+
 table img {
     width: 20px;
 }
 
-table th{
+table th {
     background-color: rgb(249 251 252);
-    text-transform: uppercase; 
+    text-transform: uppercase;
     font-size: small;
     font-style: bold;
-    padding: 15px;
+    padding: 12px;
+    width: 20%;
     text-align: left;
 }
 
-table td{
-    display: flex;
-    justify-content: left;
+tr td{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.226);
+    padding: 30px 8px;
+    width: 10%;
 }
+
+
+td {
+    width: 60%;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.bold, .name {
+    color: #000;
+    font-weight: 600;
+}
+
+.cotacao{
+    margin: 5px;
+    color: #74d1fd;
+}
+
+
+.subtitle{
+    display: block;
+    margin-top: 11px;
+}
+
+.avatar{
+    width: 50px;
+    margin-right: 20px;
+    position: absolute;
+}
+
+
+.status, .usuario{
+    margin-left: 80px;
+    
+}
+
+.seta-direita{
+    color: rgba(0, 0, 0, 0.623);
+    margin-left: 100px;
+}
+
+
+/*============= Efeitos especiais ==============*/
+
+th:hover{
+    background-color: #555758;
+    color: rgb(59, 221, 9);
+}
+
+
+tr:hover{
+    background: #00000044;
+    color: #fff;
+}
+
+span:hover{
+    color: #d10ef8b6;
+}
+
+
 
 
 
