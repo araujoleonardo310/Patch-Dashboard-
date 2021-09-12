@@ -14,18 +14,18 @@ body{
     background-color: #edeff3;
     display: flex;
     justify-content: center;
+    overflow-y: scroll
    
 }
 
 /*============ Container =============*/
 .container{
-    width: 920px;
+    width: 1000px;
     height: 100vh;
     display: block;
     margin: 30px auto;
     background: rgb(255 255 255);
-    border-radius: 20px;
-    overflow-y: scroll
+    border-radius: 20px; 
 }
 
 /* ============= Header ===================*/
@@ -42,8 +42,8 @@ body{
 }
 
 .menu {
-    width: 70%;
-    margin-top: 12px;
+    width: 80%;
+    margin-top: 8px;
 }
 
 .header a{
@@ -87,7 +87,7 @@ body{
 /*====================== Tabela =================*/
 .title {
     display: flex;
-    margin: 35px 42px;
+    margin: 20px 42px;
     justify-content: space-between;
 }
 
@@ -120,11 +120,17 @@ button:hover{
 }
 
 table{
-    width: 83%;
-    margin-top: 30px;
-    margin-left: 90px;
+    width: 92%;
+    margin-top: 8px;
+    margin-left: 50px;
     border-collapse: collapse;
     color: rgb(140 149 163);
+}
+
+.table2{
+    margin-top: 0;
+    margin-bottom: 9px;
+
 }
 
 .bold {
@@ -179,6 +185,7 @@ td {
     width: 50px;
     margin-right: 20px;
     position: absolute;
+    border-radius: 100px;
 }
 
 
@@ -190,24 +197,6 @@ td {
 .seta-direita{
     color: rgba(0, 0, 0, 0.623);
     margin-left: 100px;
-}
-
-
-/*============= Efeitos especiais ==============*/
-
-th:hover{
-    background-color: #555758;
-    color: rgb(59, 221, 9);
-}
-
-
-tr:hover{
-    background: #00000044;
-    color: #fff;
-}
-
-span:hover{
-    color: #d10ef8b6;
 }
 
 
