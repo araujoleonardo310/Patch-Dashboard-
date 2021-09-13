@@ -1,0 +1,91 @@
+/*============ Geral ==============*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #edeff3;
+    display: flow-root;
+    justify-content: center;
+   
+}
+
+.container{
+    width: 500px;
+    height: 60vh;
+    display: block;
+    margin: 60px auto;
+    background: rgb(255 255 255);
+    border-radius: 20px; 
+}
+
+.header {
+    border-bottom: 1px solid;
+    font-size: 12px;
+    margin: 12px;
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+
+.form {
+    margin: 17px 12px;
+}
+
+.data-codigo {
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    font-size: 1.5em;
+    float: right;
+    margin-left: 10px;
+    margin-right: 4px;
+    
+}
+
+fieldset {
+    margin-bottom: 20px;
+    height: 70px;
+    display: flex;
+    justify-items: center;
+    border-radius: 13px;
+    border-color: #e3e4e8;
+}
+
+input {
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    width: 90%;
+    justify-items: center;
+    font-size: large;
+    text-indent: 6px;
+}
+
+input[type="checkbox"]{
+    width: 5%;
+}
+
+legend {
+    padding: 7px;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
