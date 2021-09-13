@@ -54,10 +54,12 @@ fieldset {
     margin-bottom: 20px;
     height: 70px;
     display: flex;
+    margin-right: 6px;
     justify-items: center;
     border-radius: 13px;
-    border-color: #e3e4e8;
+    border-color: 1px #e3e4e8;
 }
+
 
 input {
     border: none;
@@ -71,6 +73,7 @@ input {
 
 input[type="checkbox"]{
     width: 5%;
+    
 }
 
 legend {
@@ -81,6 +84,11 @@ button {
     width: 100%;
     margin-top: 10px;
     padding: 10px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1074f1;
+    border-radius: 20px;
+    border: none;
 }
 
 
