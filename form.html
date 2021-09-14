@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patch - Dashboard - Deposits Listing</title>
+    <script src="https://kit.fontawesome.com/115461b4d8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/form.css">
+
+
+</head>
+<body>
+
+    <div class="header"><!-- Header -->
+        
+        
+        <div class="menu"><!-- Menu de navegacao -->
+            <img src="/img/60.jpg" alt="Logo" class="logo"><!-- Logo da empresa -->
+            <a href="/index.html">My Home</a>
+            <a href="#">Deposits</a>
+            <a href="#">Applications</a>
+            <a href="#">Payments</a>
+        </div>
+
+        <div class="contact"><!-- Lado esquerdo contato -->
+            <a href="/form.html" target="_blank"><i class="fas fa-plus"></i></a>
+            <span><i class="far fa-envelope"></i></span>
+            <img src="/img/man1.png" alt="Photo profile" class="profile">  
+            <span><i class="fas fa-chevron-down"></i></span>              
+        </div>
+    </div>
+    
+    <div class="container"><!-- Container -->
+
+        <h2>REGISTRO</h2>       
+
+        <div class="form">
+            <form action="" method="get">
+                <fieldset class="fildset">
+                    <legend class="legend">DIGITE SEU NOME </legend>
+                    <input type="text" name="nome" id="nome" placeholder="Nome" autocomplete="off" value="">
+                    <i class="fas fa-user"></i>
+                </fieldset>
+
+               
+                <fieldset>
+                    <legend>DATA TRANSAÇÂO</legend>
+                    <input type="data" name="data" id="data" placeholder="dd / mm / aaaa" autocomplete="off" value="">
+                    <i class="far fa-calendar-alt"></i>
+                </fieldset>
+
+                <fieldset>
+                    <legend>R$ VALOR</legend>
+                    <input type="number" name="valor" id="valor" placeholder="R$ 0,00" autocomplete="off" value="">
+                    <i class="fas fa-wallet"></i>
+                </fieldset>
+                      
+
+                <fieldset class="transacao">
+                    <legend>ESCOLHA A TRANSAÇÂO</legend>
+                    <input type="checkbox" id="entrada" name="entrada" value="entrada">
+                    <label for="salvo">Entrada</label><br>
+                    
+                    <input type="checkbox" id="saida" name="saida" value="saida">
+                    <label for="salvo">Saída</label><br>
+                </fieldset>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

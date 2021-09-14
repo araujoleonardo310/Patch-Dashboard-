@@ -9,107 +9,203 @@
 
 body{
     width: 100%;
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
     background-color: #edeff3;
-    display: flow-root;
-    justify-content: center;  
+    display: block;
+    justify-content: center;
+    overflow-y: scroll
+   
 }
 
+/*============ Container =============*/
 .container{
-    width: 500px;
-    height: 57vh;
+    width: 1000px;
+    height: 100vh;
     display: block;
-    margin: 60px auto;
+    margin: 30px auto;
     background: rgb(255 255 255);
     border-radius: 20px; 
 }
 
-.header {
-    border-bottom: 1px solid;
-    font-size: 12px;
-    margin: 12px;
-    padding-top: 20px;
-    padding-bottom: 14px;
+/* ============= Header ===================*/
+
+.logo{
+    margin-left: 50px;
+    width: 50px;
+    position: relative;
+    top: 19px;
 }
 
-.form {
-    margin: 17px 12px;
+.header{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    margin-top: 17px;    
+    border-bottom: 1px solid rgba(128, 128, 128, 0.274);
 }
 
-.data-codigo {
+.menu {
+    width: 70%;
+    margin-right: 50px;
+    padding-bottom: 30px;
+}
+
+.header a{
+    font-size: 16px;
+    font-style: bold;
+    color: #555758;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.header a:hover{
+    color: #00aaff;
+}
+
+.contact{
+    width: 20%;
+    align-items: center;
     display: flex;
     justify-content: space-between;
 }
 
-i {
-    font-size: 1.5em;
+.profile{
+    width: 30px;
+}
+
+.fa-chevron-down {
+    color: #a2a8b2;
+    font-size: 15px;
     position: relative;
-    right: 10px;
-    bottom: 4px;
-    float: right;   
+    right: 60px;
+    top: 2px;
 }
 
-fieldset {
-    padding: 4px 3px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    height: 70px;
+.fa-angle-right{
+ position: relative;
+ right: 40px;
+}
+
+
+/*====================== Tabela =================*/
+
+.table1 {
+    padding-top: 10px;
+}
+.title {
     display: flex;
-    margin-right: 6px;
-    justify-items: center;
-    border-radius: 13px;
-    border-color: 1px #e3e4e8;    
+    margin: 20px 42px;
+    justify-content: space-between;
 }
 
-fieldset:hover{
-    border: 1px solid #1074f1;
+.title h2, .title2 h2{
+    color: #586672;
+    font-size: 16px;
+    font-style: bold;
+    margin-top: 15px;
+}
+
+.title2 h2{
+    margin-left: 40px;
+    margin-top: 30px;
+    color: #a2a8b2;
+}
+
+button{
+    background-color: #2dcb73;
+    padding: 10px;
+    color: #fff;
+    font-weight: 800;
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: #00aaff;  
+}
+
+table{
+    width: 92%;
+    margin-top: 8px;
+    margin-left: 50px;
+    border-collapse: collapse;
+    color: rgb(140 149 163);
+}
+
+.table2{
+    margin-top: 0;
+    margin-bottom: 9px;
+
+}
+
+.bold {
+    color: #000;
+}
+
+
+table img {
+    width: 20px;
+}
+
+table th {
+    background-color: rgb(249 251 252);
+    text-transform: uppercase;
+    font-size: small;
+    font-style: bold;
+    padding: 12px;
+    width: 20%;
+    text-align: left;
+}
+
+tr td{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.226);
+    padding: 30px 8px;
+    width: 10%;
+}
+
+
+td {
+    width: 60%;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.bold, .name {
+    color: #000;
+    font-weight: 600;
+}
+
+.cotacao{
+    margin: 5px;
+    color: #74d1fd;
+}
+
+
+.subtitle{
+    display: block;
+    margin-top: 11px;
+}
+
+.avatar{
+    width: 50px;
+    margin-right: 20px;
+    position: absolute;
+    border-radius: 100px;
+}
+
+
+.status, .usuario{
+    margin-left: 80px;
     
 }
 
-input {
-    border: none;
-    margin-bottom: 10px;
-    margin-left: 6px;
-    width: 100%;
-    justify-items: center;
-    font-size: large;
-    text-indent: 6px;
+.seta-direita{
+    color: rgba(0, 0, 0, 0.623);
+    margin-left: 100px;
 }
-
-input:focus{
-    outline: none;
-}
-
-input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-}
-
-input[type="checkbox"]{
-    width: 5%;    
-}
-
-label {
-    font-weight: 700;
-}
-
-legend {
-    padding: 7px;
-}
-
-button {
-    width: 100%;
-    margin-top: 10px;
-    padding: 10px;
-    font-weight: 700;
-    color: #fff;
-    background-color: #1074f1;
-    border-radius: 20px;
-    border: none;
-}
-
-
-
-
-
-
-
