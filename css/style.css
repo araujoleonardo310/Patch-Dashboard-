@@ -12,13 +12,12 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #edeff3;
     display: flow-root;
-    justify-content: center;
-   
+    justify-content: center;  
 }
 
 .container{
     width: 500px;
-    height: 60vh;
+    height: 57vh;
     display: block;
     margin: 60px auto;
     background: rgb(255 255 255);
@@ -44,37 +43,53 @@ body{
 
 i {
     font-size: 1.5em;
-    float: right;
-    margin-left: 10px;
-    margin-right: 4px;
-    
+    position: relative;
+    right: 10px;
+    bottom: 4px;
+    float: right;   
 }
 
 fieldset {
+    padding: 4px 3px;
+    font-weight: 700;
     margin-bottom: 20px;
     height: 70px;
     display: flex;
     margin-right: 6px;
     justify-items: center;
     border-radius: 13px;
-    border-color: 1px #e3e4e8;
+    border-color: 1px #e3e4e8;    
 }
 
+fieldset:hover{
+    border: 1px solid #1074f1;
+    
+}
 
 input {
     border: none;
     margin-bottom: 10px;
     margin-left: 6px;
-    width: 90%;
+    width: 100%;
     justify-items: center;
     font-size: large;
     text-indent: 6px;
 }
 
+input:focus{
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
 
 input[type="checkbox"]{
-    width: 5%;
-    
+    width: 5%;    
+}
+
+label {
+    font-weight: 700;
 }
 
 legend {
