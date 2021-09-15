@@ -1,0 +1,9 @@
+{
+    "users": [
+      { "id": 1, 
+        "nome": "json-server", 
+        "data": "typicode",
+        "trasacao": "saida"
+    }
+    ]
+  }
